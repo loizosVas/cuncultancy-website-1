@@ -1,34 +1,110 @@
 
-
-<!-- Bootstrap Static Header -->
-<div id="thisDiv" style="background-size: cover !important;" class="jumbotron bg-cover text-white">
-    <div class="container py-5 text-center">
-        <h1 class="display-4 font-weight-bold">Bootstrap static header</h1>
-        <p class="font-italic mb-0">Using simple jumbotron-style component, create a nice Bootstrap 4 header with a background image.</p>
-        <p class="font-italic">Snippe by
-            <a href="https://bootstrapious.com" class="text-white">
-                <u>Bootstrapious</u>
-            </a>
-        </p>
-        <a href="#" role="button" class="btn btn-primary px-5">See All Features</a>
-    </div>
-</div>
-
 <div>
-	<%= image_pack_tag 'home_networks_wallpaper.jpg', id:"thisImage" %>
-
-	<script type="text/javascript">
-		let img = document.getElementById("thisImage");
-		img.style = "display:none;"
-
-		let div = document.getElementById("thisDiv");
-		div. style = "background: url("+ img.src + ")"
-		console.log(img.src)
-	</script>
-	<div>
-		<h1>Home#index</h1>
-		<p>Find me in app/views/home/index.html.erb</p>
-	</div>
+	<%= image_pack_tag 'home_networks_wallpaper.jpg', class:"img-fluid", style:"
+		object-fit: cover;
+		width: 100%;
+		height: 300px;
+		-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));" %>
+	<h1 class="text-center text-black fs-1"><i>"Be part of the solution."</i></h1>
 </div>
 
 
+<br>
+<div class="container">
+
+	<div class="card mb-3">
+	  <div class="row no-gutters">
+	    <div class="col-md-3">
+	      <img style="width: 197px; margin:50px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" class="card-img">
+	    </div>
+	    <div class="col-md-9">
+	      <div class="card-body">
+	        <h5 class="card-title"><b>Item 1</b></h5>
+	        <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis eu quam in varius. Suspendisse mollis dui eget risus finibus dapibus. Aliquam tempus augue id dui vestibulum, eu cursus arcu sollicitudin. Maecenas ut nisi vel urna tincidunt commodo. Nulla erat libero, vestibulum at ullamcorper ut, vulputate eget purus. Sed vulputate convallis lacus, id condimentum felis. Etiam non aliquam velit, id vestibulum neque. Quisque feugiat volutpat orci, ut tincidunt mauris commodo nec. Duis in arcu non ligula blandit feugiat ac ac nisi. Donec et magna vitae lacus pellentesque mattis. Donec eget neque congue, vulputate leo quis, venenatis tellus. Mauris libero massa, blandit ac dui mollis, euismod dictum arcu. Integer quis vestibulum erat, vel gravida nibh. Aliquam erat volutpat. Curabitur eu nibh rutrum, pharetra tortor ut, rhoncus sapien. Quisque in orci ipsum.</p>
+	        <p class="card-text"><small class="text-muted">Sun Dance Services</small></p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="card mb-3">
+	  <div class="row no-gutters">
+	    
+	    <div class="col-md-9">
+	      <div class="card-body">
+	        <h5 class="card-title"><b>Item 2</b></h5>
+	        <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis eu quam in varius. Suspendisse mollis dui eget risus finibus dapibus. Aliquam tempus augue id dui vestibulum, eu cursus arcu sollicitudin. Maecenas ut nisi vel urna tincidunt commodo. Nulla erat libero, vestibulum at ullamcorper ut, vulputate eget purus. Sed vulputate convallis lacus, id condimentum felis. Etiam non aliquam velit, id vestibulum neque. Quisque feugiat volutpat orci, ut tincidunt mauris commodo nec. Duis in arcu non ligula blandit feugiat ac ac nisi. Donec et magna vitae lacus pellentesque mattis. Donec eget neque congue, vulputate leo quis, venenatis tellus. Mauris libero massa, blandit ac dui mollis, euismod dictum arcu. Integer quis vestibulum erat, vel gravida nibh. Aliquam erat volutpat. Curabitur eu nibh rutrum, pharetra tortor ut, rhoncus sapien. Quisque in orci ipsum.</p>
+	        <p class="card-text"><small class="text-muted">Sun Dance Services</small></p>
+	      </div>
+	    </div>
+
+	    <div class="col-md-3">
+	      <img style="width: 197px; margin: 50px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" class="card-img">
+	    </div>
+	  </div>
+	</div>
+	<div class="card mb-3">
+	  <div class="row no-gutters">
+	    <div class="col-md-3">
+	      <img style="width: 197px; margin:50px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" class="card-img">
+	    </div>
+	    <div class="col-md-9">
+	      <div class="card-body">
+	        <h5 class="card-title"><b>Item 3</b></h5>
+	        <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis eu quam in varius. Suspendisse mollis dui eget risus finibus dapibus. Aliquam tempus augue id dui vestibulum, eu cursus arcu sollicitudin. Maecenas ut nisi vel urna tincidunt commodo. Nulla erat libero, vestibulum at ullamcorper ut, vulputate eget purus. Sed vulputate convallis lacus, id condimentum felis. Etiam non aliquam velit, id vestibulum neque. Quisque feugiat volutpat orci, ut tincidunt mauris commodo nec. Duis in arcu non ligula blandit feugiat ac ac nisi. Donec et magna vitae lacus pellentesque mattis. Donec eget neque congue, vulputate leo quis, venenatis tellus. Mauris libero massa, blandit ac dui mollis, euismod dictum arcu. Integer quis vestibulum erat, vel gravida nibh. Aliquam erat volutpat. Curabitur eu nibh rutrum, pharetra tortor ut, rhoncus sapien. Quisque in orci ipsum.</p>
+	        <p class="card-text"><small class="text-muted">Sun Dance Services</small></p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="card mb-3">
+	  <div class="row no-gutters">
+	    
+	    <div class="col-md-9">
+	      <div class="card-body">
+	        <h5 class="card-title"><b>Item 4</b></h5>
+	        <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis eu quam in varius. Suspendisse mollis dui eget risus finibus dapibus. Aliquam tempus augue id dui vestibulum, eu cursus arcu sollicitudin. Maecenas ut nisi vel urna tincidunt commodo. Nulla erat libero, vestibulum at ullamcorper ut, vulputate eget purus. Sed vulputate convallis lacus, id condimentum felis. Etiam non aliquam velit, id vestibulum neque. Quisque feugiat volutpat orci, ut tincidunt mauris commodo nec. Duis in arcu non ligula blandit feugiat ac ac nisi. Donec et magna vitae lacus pellentesque mattis. Donec eget neque congue, vulputate leo quis, venenatis tellus. Mauris libero massa, blandit ac dui mollis, euismod dictum arcu. Integer quis vestibulum erat, vel gravida nibh. Aliquam erat volutpat. Curabitur eu nibh rutrum, pharetra tortor ut, rhoncus sapien. Quisque in orci ipsum.</p>
+	        <p class="card-text"><small class="text-muted">Sun Dance Services</small></p>
+	      </div>
+	    </div>
+
+	    <div class="col-md-3">
+	      <img style="width: 197px; margin: 50px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" class="card-img">
+	    </div>
+	  </div>
+	</div>
+	<div class="card mb-3">
+	  <div class="row no-gutters">
+	    <div class="col-md-3">
+	      <img style="width: 197px; margin:50px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" class="card-img">
+	    </div>
+	    <div class="col-md-9">
+	      <div class="card-body">
+	        <h5 class="card-title"><b>Item 5</b></h5>
+	        <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis eu quam in varius. Suspendisse mollis dui eget risus finibus dapibus. Aliquam tempus augue id dui vestibulum, eu cursus arcu sollicitudin. Maecenas ut nisi vel urna tincidunt commodo. Nulla erat libero, vestibulum at ullamcorper ut, vulputate eget purus. Sed vulputate convallis lacus, id condimentum felis. Etiam non aliquam velit, id vestibulum neque. Quisque feugiat volutpat orci, ut tincidunt mauris commodo nec. Duis in arcu non ligula blandit feugiat ac ac nisi. Donec et magna vitae lacus pellentesque mattis. Donec eget neque congue, vulputate leo quis, venenatis tellus. Mauris libero massa, blandit ac dui mollis, euismod dictum arcu. Integer quis vestibulum erat, vel gravida nibh. Aliquam erat volutpat. Curabitur eu nibh rutrum, pharetra tortor ut, rhoncus sapien. Quisque in orci ipsum.</p>
+	        <p class="card-text"><small class="text-muted">Sun Dance Services</small></p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="card mb-3">
+	  <div class="row no-gutters">
+	    
+	    <div class="col-md-9">
+	      <div class="card-body">
+	        <h5 class="card-title"><b>Item 6</b></h5>
+	        <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis eu quam in varius. Suspendisse mollis dui eget risus finibus dapibus. Aliquam tempus augue id dui vestibulum, eu cursus arcu sollicitudin. Maecenas ut nisi vel urna tincidunt commodo. Nulla erat libero, vestibulum at ullamcorper ut, vulputate eget purus. Sed vulputate convallis lacus, id condimentum felis. Etiam non aliquam velit, id vestibulum neque. Quisque feugiat volutpat orci, ut tincidunt mauris commodo nec. Duis in arcu non ligula blandit feugiat ac ac nisi. Donec et magna vitae lacus pellentesque mattis. Donec eget neque congue, vulputate leo quis, venenatis tellus. Mauris libero massa, blandit ac dui mollis, euismod dictum arcu. Integer quis vestibulum erat, vel gravida nibh. Aliquam erat volutpat. Curabitur eu nibh rutrum, pharetra tortor ut, rhoncus sapien. Quisque in orci ipsum.</p>
+	        <p class="card-text"><small class="text-muted">Sun Dance Services</small></p>
+	      </div>
+	    </div>
+
+	    <div class="col-md-3">
+	      <img style="width: 197px; margin: 50px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" class="card-img">
+	    </div>
+	  </div>
+	</div>
+
+ 
+</div>
