@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   get 'home/products'
 
-  get 'home/new_home'
+  get 'home/contact_us'
 end

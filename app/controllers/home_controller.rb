@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   def products
   end
 
-  def new_home
+  def contact_us
   end
   
 end
