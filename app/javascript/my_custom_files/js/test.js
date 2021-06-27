@@ -1,3 +1,5 @@
+
+/*
 window.onload = function() {
     if (window.jQuery) {  
         // jQuery is loaded  
@@ -7,3 +9,4 @@ window.onload = function() {
         alert("jQuery and custom JS file doesn't work");
     }
 }
+*/

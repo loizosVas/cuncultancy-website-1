@@ -4,4 +4,11 @@ class HomeController < ApplicationController
 
   def about
   end
+
+  def products
+  end
+
+  def new_home
+  end
+  
 end
